@@ -1,9 +1,13 @@
+import github from "../assets/github.svg"
+import linkedin from "../assets/linkedin.svg"
+import instagram from "../assets/instagram.svg"
+
 export function Home() {
     return (
         <div className="relative w-[100%] min-h-[100vh]">
             <div className="absolute w-[500px] h-[100vh]">
                 <img
-                    src="https://avatars.githubusercontent.com/u/52111824?v=4"
+                    src="https://muvias.github.io/Portfolio/images/perfil2.jpeg"
                     alt="Minha foto"
                     className="w-[100%] h-[100%] object-cover absolute"
                 />
@@ -21,6 +25,27 @@ export function Home() {
                     <button className="inline-block py-[10px] px-[30px] bg-[#fec63e] text-[#fff] font-medium tracking-[2px] hover:bg-[#fcbb25]">Sobre mim</button>
                 </div>
 
+                <ul className="flex justify-center items-center absolute bottom-[20px] left-[100px] gap-3">
+
+                    <li>
+                        <a href="https://github.com/Muvias" target="_blank" rel="noreferrer">
+                            <img className="w-[1.875rem] opacity-[0.7] hover:opacity-[1] transition-opacity" src={github} alt="Github"/>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="https://www.linkedin.com/in/vinicius-perazza-martins/" target="_blank" rel="noreferrer">
+                            <img className="w-[1.875rem] opacity-[0.7] hover:opacity-[1] transition-opacity" src={linkedin} alt="Github"/>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://www.instagram.com/perazzamrb/" target="_blank" rel="noreferrer">
+                            <img className="w-[1.875rem] opacity-[0.7] hover:opacity-[1] transition-opacity" src={instagram} alt="Github"/>
+                        </a>
+                    </li>
+
+                </ul>
             </div>
         </div>
     );
