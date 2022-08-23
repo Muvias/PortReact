@@ -22,7 +22,7 @@ export function Home() {
                     <p className="text-[1.5em] text-[#333]">Sou um desenvolvedor iniciante, por enquanto mais familiarizado com o Front-end.</p>
                     <p className="my-[20px] text-[1.1em]">Seja bem-vindo ao meu site, aqui você encontrará um pouco sobre quem eu sou, o que eu faço e como entrar em contato comigo. Espero que tenha uma experiência agradável. Caso tenha sugestões não exite em entrar em contato comigo via redes-sociais ou WhatsApp.</p>
                     
-                    <button className="inline-block py-[10px] px-[30px] bg-[#fec63e] text-[#fff] font-medium tracking-[2px] hover:bg-[#fcbb25]">Sobre mim</button>
+                    <a href="#about" className="inline-block py-[10px] px-[30px] bg-[#fec63e] text-[#fff] font-medium tracking-[2px] hover:bg-[#fcbb25]">Sobre mim</a>
                 </div>
 
                 <ul className="flex justify-center items-center absolute bottom-[20px] left-[100px] gap-3">

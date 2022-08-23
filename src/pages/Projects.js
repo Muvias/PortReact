@@ -13,7 +13,7 @@ export function Projects() {
                 <p className="my-[20px] text-[1.1em]">Visitando meu Github você verá as menções para cada projeto e de onde eles vieram.</p>
             </div>
 
-            <div className="grid grid-cols-3 gap-4 w-[100rem] h-[100rem]"
+            <div className="grid grid-cols-4 gap-1 h-[60rem] mx-auto"
 >
                 {isLoading && <p>Carregando...</p>}
 
