@@ -1,6 +1,7 @@
+
 export function Footer() {
     return (
-        <div className="flex flex-col w-[100%] min-h-[100vh] p-[100px] bg-black justify-center items-center">
+        <div className="flex flex-col w-[100%] min-h-[40vh] p-[100px] bg-black justify-center items-center">
             <div className="text-center text-[#fff]">
                 <h2 className="relative text-[1.8em] tracking-[1px] font-bold before:absolute before:content-[''] before:w-[60px] before:h-[4px] before:left-[50%] before:bottom-[-10px] before:translate-x-[-50%] before:bg-[#fec63e]">
                     Contatos
