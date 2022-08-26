@@ -10,10 +10,11 @@ export function Home() {
                     src="https://muvias.github.io/Portfolio/images/perfil2.jpeg"
                     alt="Minha foto"
                     className="w-[100%] h-[100%] object-cover absolute"
+                    data-aos="fade-left" data-aos-duration="2000"
                 />
             </div>
 
-            <div className="flex justify-center items-center absolute  right-0 p-[100px] h-[100%] w-[calc(100%-500px)]">
+            <div className="flex justify-center items-center absolute  right-0 p-[100px] h-[100%] w-[calc(100%-500px)]" data-aos="fade-left" data-aos-duration="2000">
                 <h1 className="absolute top-[40px] left-[100px] px-[5px] text-[1.2em] font-bold bg-[#333] text-white">VP_PORFOLIO</h1>
 
                 <div>
@@ -35,7 +36,7 @@ export function Home() {
                     
                     <li>
                         <a href="https://www.linkedin.com/in/vinicius-perazza-martins/" target="_blank" rel="noreferrer">
-                            <img className="w-[1.875rem] opacity-[0.7] hover:opacity-[1] transition-opacity" src={linkedin} alt="Github"/>
+                            <img className="w-[1.875rem] opacity-[0.7] hover:opacity-[1] hover:-translate-y-[2px] transition-opacity" src={linkedin} alt="Github"/>
                         </a>
                     </li>
 

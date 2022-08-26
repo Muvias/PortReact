@@ -14,7 +14,7 @@ export function Footer() {
                     href="https://api.whatsapp.com/send?phone=+5513997546800&text=Olá, vi o seu site e gostaria de conversar com você."
                     target="_blank"
                     rel="noreferrer"
-                    className="py-[10px] px-[30px] bg-[#fec63e] tracking-[2px] font-medium hover:bg-[#fcbb25] transition-colors"
+                    className="py-[10px] px-[30px] bg-[#fec63e] tracking-[2px] font-medium hover:bg-[#fcbb25] hover:-translate-y-0 transition-colors"
                 >
                         WhatsApp
                 </a>
