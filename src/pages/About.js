@@ -16,11 +16,12 @@ export function About() {
                     </p>
                 </div>
 
-                <div className="lg:ml-[40px]" data-aos="fade-left" data-aos-duration="2000">
+                <div className="overflow-hidden lg:ml-[40px]">
                     <img
                         src="https://muvias.github.io/Portfolio/images/deitada.jpeg"
                         alt="Minha foto"
-                        className="max-w-[100%]"
+                        className="max-w-[80%] mx-auto"
+                        data-aos="fade-left" data-aos-duration="2000"
                     />
                 </div>
             </div>

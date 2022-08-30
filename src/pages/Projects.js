@@ -7,7 +7,7 @@ export function Projects() {
     const { data: repositories, isLoading } = useFetch("https://api.github.com/users/Muvias/repos");
 
     return (
-        <div className="flex flex-col w-[100%] min-h-[100vh] p-[100px]">
+        <div className="flex flex-col p-[30px] w-[100%] min-h-[100vh] lg:p-[100px] overflow-hidden">
             <div className="text-center text-[#333]" data-aos="fade-down" data-aos-duration="1000">
                 <h2 className="relative text-[1.8em] tracking-[1px] font-bold before:absolute before:content-[''] before:w-[60px] before:h-[4px] before:left-[50%] before:bottom-[-10px] before:translate-x-[-50%] before:bg-[#fec63e]">
                     Projetos
@@ -16,10 +16,10 @@ export function Projects() {
                 <p className="mt-[20px] text-[1.1em]">Visitando meu Github você verá as menções para cada projeto e de onde eles vieram.</p>
             </div>
 
-            <div className="m-auto" data-aos="fade-right" data-aos-duration="1000">
+            <div className="m-auto w-[100%] lg:w-[40rem]" data-aos="fade-up" data-aos-duration="1000">
 
                 {isLoading && <p>Carregando...</p>}
-                <Carousel selectedItem={16} infiniteLoop={true} width={"40rem"} showThumbs={false}>
+                <Carousel selectedItem={16} infiniteLoop={true} showThumbs={false}>
                     {repositories?.map(repo => (
                         <a
                             key={repo.id}
