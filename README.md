@@ -1,2 +1,2 @@
 # Portfolio React
-> Status: Missing responsive css, formal photo, header/toogle menu.
+> Status: Formal photo. maybe modal preview project.

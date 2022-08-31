@@ -7,9 +7,9 @@ export function Projects() {
     const { data: repositories, isLoading } = useFetch("https://api.github.com/users/Muvias/repos");
 
     return (
-        <div className="flex flex-col p-[30px] w-[100%] min-h-[100vh] lg:p-[100px] overflow-hidden">
+        <div className="flex flex-col p-[30px] w-[100%] min-h-[100vh] sm:p-[40px] lg:p-[60px] xl:p-[100px] overflow-hidden">
             <div className="text-center text-[#333]" data-aos="fade-down" data-aos-duration="1000">
-                <h2 className="relative text-[1.8em] tracking-[1px] font-bold before:absolute before:content-[''] before:w-[60px] before:h-[4px] before:left-[50%] before:bottom-[-10px] before:translate-x-[-50%] before:bg-[#fec63e]">
+                <h2 className="relative text-[1.8em] tracking-[1px] font-bold before:absolute before:content-[''] before:w-[60px] before:h-[4px] before:left-[50%] before:bottom-[-10px] before:translate-x-[-50%] before:bg-[#fcbb25]">
                     Projetos
                 </h2>
 
