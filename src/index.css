@@ -5,3 +5,7 @@
 * {
     scroll-behavior: smooth;
 }
+
+#projectsContainer:hover #image {
+    opacity: 0.1;
+}

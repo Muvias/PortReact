@@ -19,7 +19,7 @@ export function Projects() {
             <div className="m-auto w-[100%] lg:w-[40rem]" data-aos="fade-up" data-aos-duration="1000">
 
                 {isLoading && <p>Carregando...</p>}
-                <Carousel selectedItem={16} infiniteLoop={true} showThumbs={false}>
+                <Carousel selectedItem={16} infiniteLoop={true} showThumbs={false} showStatus={false}>
                     {repositories?.map(repo => (
                         <a
                             key={repo.id}
@@ -27,12 +27,22 @@ export function Projects() {
                             alt="Repositório"
                             target="_blank"
                             rel="noreferrer"
-                            className="flex justify-center items-center h-[15rem] text-[1.8rem] font-bold bg-[#222] text-white hover:bg-[#fec63e] hover:text-[#333] transition-colors"
+                            className="flex justify-center items-center h-[15rem] lg:h-[25rem] text-[1.8rem] font-bold bg-[#222]"
+                            id="projectsContainer"
                         >
-                            <div>
-                                <p className="text-[2rem]">{repo.name}</p>
-                                <p className="text-[1rem] font-sm">{repo.description}</p>
+                            <div className="w-[80%]" id="text">
+                                <p className="text-[2rem] text-[#fcbb25]">{repo.name}</p>
+                                <p className="text-[1.3rem] font-thin text-[#fcbb25]">{repo.description}</p>
                             </div>
+
+                            {(repo.name !== "Muvias" && repo.name !== "Elixir" && repo.name !== "FeedbackWidgetBackEnd") && (
+                                <img
+                                    className="absolute max-w-[93%] h-[25rem] object-cover transition-opacity"
+                                    src={`https://raw.githubusercontent.com/Muvias/${repo.name}/main/.github/preview.png`}
+                                    alt="Imagem de preview do projeto"
+                                    id="image"
+                                />
+                            )}
                         </a>
                     ))}
                 </Carousel>
