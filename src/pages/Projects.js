@@ -16,7 +16,7 @@ export function Projects() {
                 <p className="mt-[20px] text-[1.1em]">Visitando meu Github você verá as menções para cada projeto e de onde eles vieram.</p>
             </div>
 
-            <div className="m-auto w-[100%] lg:w-[40rem]" data-aos="fade-up" data-aos-duration="1000">
+            <div className="m-auto w-[100%] lg:w-[40rem] xl:w-[60rem]" data-aos="fade-up" data-aos-duration="1000">
 
                 {isLoading && <p>Carregando...</p>}
                 <Carousel selectedItem={16} infiniteLoop={true} showThumbs={false} showStatus={false}>
@@ -27,7 +27,7 @@ export function Projects() {
                             alt="Repositório"
                             target="_blank"
                             rel="noreferrer"
-                            className="flex justify-center items-center h-[15rem] lg:h-[25rem] text-[1.8rem] font-bold bg-[#222]"
+                            className="flex justify-center items-center h-[15rem] lg:h-[25rem] xl:h-[35rem] text-[1.8rem] font-bold bg-[#222]"
                             id="projectsContainer"
                         >
                             <div className="w-[80%]" id="text">
@@ -37,7 +37,7 @@ export function Projects() {
 
                             {(repo.name !== "Muvias" && repo.name !== "Elixir" && repo.name !== "FeedbackWidgetBackEnd") && (
                                 <img
-                                    className="absolute max-w-[93%] h-[25rem] object-cover transition-opacity"
+                                    className="absolute max-w-[93%] h-[35rem] object-cover transition-opacity"
                                     src={`https://raw.githubusercontent.com/Muvias/${repo.name}/main/.github/preview.png`}
                                     alt="Imagem de preview do projeto"
                                     id="image"
