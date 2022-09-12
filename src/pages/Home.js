@@ -14,7 +14,7 @@ export function Home() {
                 />
             </div>
 
-             <div className="flex flex-col justify-center p-[30px] lg:items-center lg:absolute lg:right-0 sm:p-[40px] lg:p-[60px] xl:p-[100px] lg:h-[100%] lg:w-[calc(100%-450px)] xl:w-[calc(100%-500px)]"  data-aos="fade-left" data-aos-duration="2000">
+             <div className="flex flex-col justify-center p-[30px] lg:items-center lg:absolute lg:right-0 sm:p-[40px] lg:p-[60px] xl:p-[80px] lg:h-[100%] lg:w-[calc(100%-450px)] xl:w-[calc(100%-500px)]"  data-aos="fade-left" data-aos-duration="2000">
                 <h1 className="absolute top-[30px] py-[2px] px-[5px] text-[1.2em] tracking-[1px] font-bold bg-[#333] text-white lg:top-[40px] lg:left-[60px] xl:left-[100px] lg:px-[5px]">VP_PORFOLIO</h1>
 
                 <div>
