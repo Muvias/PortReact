@@ -32,7 +32,7 @@ export function Projects() {
                         >
                             <div className="w-[80%]" id="text">
                                 <p className="text-[1.3rem] sm:text-[2rem] text-[#fcbb25]">{repo.name}</p>
-                                <p className="text-[1rem] sm:text-[1.3rem] font-thin text-[#fcbb25]">{repo.description}</p>
+                                <p className="text-[1rem] sm:text-[1.3rem] font-extralight text-[#fcbb25]">{repo.description}</p>
                             </div>
 
                             {(repo.name !== "Muvias" && repo.name !== "Elixir" && repo.name !== "FeedbackWidgetBackEnd") && (
@@ -47,7 +47,7 @@ export function Projects() {
                     ))}
                 </Carousel>
 
-                <p className="mt-[5px] text-center text-[1.1em] font-thin">Cada card leva diretamente para o seu respectivo repositório.</p>
+                <p className="mt-[5px] text-center text-[1.1em] font-extralight">Cada card leva diretamente para o seu respectivo repositório.</p>
             </div>
         </div>
     )
