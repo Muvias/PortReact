@@ -9,8 +9,8 @@ export function About() {
             <div className="flex flex-col justify-center items-center lg:flex-row lg:justify-between lg:mt-[40px] lg:p-[0] lg:items-start">
                 <div className="text-center text-[#fff] lg:min-w-[49%] lg:w-[49%]" data-aos="fade-right" data-aos-duration="2000">
                     <p className="mb-[20px] mt-[20px] lg:mt-0 text-[1rem] sm:text-[1.1rem] text-left">
-                        Tenho 23 anos e sou formado no Colégio Objetivo de Guarujá, aonde morei a minha vida inteira até metade de 2020, foi quando me mudei para São Paulo com meus pais em busca de melhores oportunidades de vida. <br /> <br />
                         As coisas que você encontrará aqui serão apenas um pouco de quem eu sou, mas espero que seja o suficiente para que instigue alguém a querer me conhecer melhor, me dar uma oportunidade e ver até aonde eu posso ir. <br /> <br />
+                        Tenho 23 anos e resido atualmente em Sâo Paulo capital, sou nascido e criado em Guarujá, aonde morei até me formar. <br /> <br />
                         Sempre fui fascinado por tecnologia e após me mudar tive a oportunidade de começar a estudar sobre isso, aonde realmente me vi tendo um futuro.<br /> <br />
                         Constantemente ouvi dizerem que a carreira de programador é "coisa de maluco", por conta disso me tornei muito receoso em ir atrás, mas após entrar neste mundo finalmente me senti confortável fazendo algo que pudesse ser o meu trabalho, e aqui estou, tentando ingressar no mercado como um iniciante, querendo adquirir experiência e construir a minha carreira.
                     </p>
