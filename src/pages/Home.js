@@ -2,14 +2,16 @@ import github from "../assets/github.svg"
 import linkedin from "../assets/linkedin.svg"
 import instagram from "../assets/instagram.svg"
 
+import perfil from "../assets/perfil.jpg"
+
 export function Home() {
     return (
         <div className="flex w-[100%] min-h-[100vh] lg:relative">
             <div className="hidden lg:inline-block lg:absolute lg:w-[450px] xl:w-[500px] lg:h-[100vh]">
                 <img
-                    src="https://muvias.github.io/Portfolio/images/perfil2.jpeg"
+                    src={perfil}
                     alt="Minha foto"
-                    className="w-[100%] h-[100%] object-cover absolute"
+                    className="h-[100%] object-cover absolute"
                     data-aos="fade-left" data-aos-duration="2000"
                 />
             </div>
