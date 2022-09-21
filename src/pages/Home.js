@@ -1,3 +1,5 @@
+import Typewriter from 'typewriter-effect';
+
 import github from "../assets/github.svg"
 import linkedin from "../assets/linkedin.svg"
 import instagram from "../assets/instagram.svg"
@@ -22,8 +24,20 @@ export function Home() {
                 <div>
                     <h2 className="text-[1.3em] text-[#333] lg:text-[1.5em]"><span className="text-[#fcbb25] font-bold text-[1.3em]">Olá</span>, me chamo</h2>
                     <span className="text-[1.8em] text-[#333] font-bold lg:text-[3em]">Vinicius Perazza Martins.</span>
-                    <p className="text-[1.3em] text-[#333] lg:text-[1.5em]">Sou um desenvolvedor iniciante, mais familiarizado com o Front-end.</p>
-                    <p className="text-[1.1em] my-2 lg:my-[20px]">Seja bem-vindo ao meu site, aqui você encontrará um pouco sobre quem eu sou, o que eu faço e como entrar em contato comigo. Espero que tenha uma experiência agradável. Caso tenha sugestões não hesite em entrar em contato comigo via redes-sociais ou WhatsApp.</p>
+                    <div className="sm:flex sm:gap-2 text-[1.3em] text-[#333] lg:text-[1.5em]">
+                        {<Typewriter
+                            onInit={(typewriter) => {
+                                typewriter
+                                    .pauseFor(1500)
+                                    .typeString('Sou desenvolvedor Front-End.')
+                                    .start()
+                            }}
+                            options={{
+                                delay: 90,
+                            }}
+                        />}
+                    </div>
+                    <p className="text-[1.1em] my-2 lg:my-[20px]">Seja bem-vindo ao meu site, aqui você encontrará um pouco sobre o que eu faço e como entrar em contato comigo. Espero que tenha uma experiência agradável. Caso tenha sugestões não hesite em entrar em contato comigo via redes-sociais ou WhatsApp.</p>
                     
                     <a href="#about" className="inline-block py-[10px] px-[20px] my-2 bg-[#fcbb25] text-[#fff] font-medium tracking-[2px] hover:bg-[#fec63e]">Sobre mim</a>
                 </div>
