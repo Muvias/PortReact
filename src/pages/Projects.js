@@ -14,7 +14,11 @@ export function Projects() {
         'FeedbackWidgetBackEnd',
         'consumingAPI',
         'HeatDoWhile',
-        'nlwValoriza'
+        'nlwValoriza',
+        'docuraDaFada',
+        'firstContactReactJS',
+        'teste-front-end-jr',
+        'blog'
     ]
 
     return (
